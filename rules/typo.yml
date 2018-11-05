@@ -4,26 +4,31 @@
   fail: Github
   pass: GitHub
   justification: "Ignore 3rd-party identifier (e.g. X-Github-Media-Type)"
+
 - id: review.sider.typo.javascript
   pattern: Javascript
   message: "[typo] 'Javascript' → 'JavaScript'"
   fail: Javascript
   pass: JavaScript
+
 - id: review.sider.typo.vuejs
   pattern: VueJS
   message: "[typo] 'VueJS' → 'Vue.js'"
   fail: VueJS
   pass: Vue.js
+
 - id: review.sider.typo.jetbrains
   pattern: Jetbrains
   message: "[typo] 'Jetbrains' → 'JetBrains'"
   fail: Jetbrains
   pass: JetBrains
+
 - id: review.sider.typo.webstorm
   pattern: Webstorm
   message: "[typo] 'Webstorm' → 'WebStorm'"
   fail: Webstorm
   pass: WebStorm
+
 - id: review.sider.typo.japanese.count_months
   pattern: ヶ月
   message: |
