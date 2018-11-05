@@ -4,3 +4,8 @@
   fail: Github
   pass: GitHub
   justification: "Ignore 3rd-party identifier (e.g. X-Github-Media-Type)"
+- id: review.sider.typo.javascript
+  pattern: Javascript
+  message: "[typo] 'Javascript' → 'JavaScript'"
+  fail: Javascript
+  pass: JavaScript
