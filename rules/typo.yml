@@ -9,6 +9,11 @@
   message: "[typo] 'Javascript' → 'JavaScript'"
   fail: Javascript
   pass: JavaScript
+- id: review.sider.typo.vuejs
+  pattern: VueJS
+  message: "[typo] 'VueJS' → 'Vue.js'"
+  fail: VueJS
+  pass: Vue.js
 - id: review.sider.typo.count_months_in_japanese
   pattern: ヶ月
   message: |
