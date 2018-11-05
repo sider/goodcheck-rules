@@ -1,2 +1,3 @@
-# goodcheck-rules
-Useful Goodcheck Rules
+# Goodcheck Rules
+
+> The collection of useful Goodcheck rules.
