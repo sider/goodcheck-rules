@@ -14,7 +14,7 @@
   message: "[typo] 'VueJS' → 'Vue.js'"
   fail: VueJS
   pass: Vue.js
-- id: review.sider.typo.count_months_in_japanese
+- id: review.sider.typo.japanese.count_months
   pattern: ヶ月
   message: |
     [typo] 'ヶ月' → 'か月'
