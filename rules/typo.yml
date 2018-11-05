@@ -14,6 +14,11 @@
   message: "[typo] 'VueJS' → 'Vue.js'"
   fail: VueJS
   pass: Vue.js
+- id: review.sider.typo.webstorm
+  pattern: Webstorm
+  message: "[typo] 'Webstorm' → 'WebStorm'"
+  fail: Webstorm
+  pass: WebStorm
 - id: review.sider.typo.japanese.count_months
   pattern: ヶ月
   message: |
