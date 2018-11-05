@@ -11,6 +11,30 @@
   fail: Javascript
   pass: JavaScript
 
+- id: review.sider.typo.rubocop
+  pattern: Rubocop
+  message: "[typo] 'Rubocop' → 'RuboCop'"
+  fail: Rubocop
+  pass: RuboCop
+
+- id: review.sider.typo.checkstyle
+  pattern: CheckStyle
+  message: "[typo] 'CheckStyle' → 'Checkstyle'"
+  fail: CheckStyle
+  pass: Checkstyle
+
+- id: review.sider.typo.rails_best_practices
+  pattern: rails_best_practice
+  message: "[typo] 'rails_best_practice' → 'rails_best_practices'"
+  fail: rails_best_practice
+  pass: rails_best_practices
+
+- id: review.sider.typo.Rails_Best_Practices
+  pattern: Rails Best Practice
+  message: "[typo] 'Rails Best Practice' → 'Rails Best Practices'"
+  fail: Rails Best Practice
+  pass: Rails Best Practices
+
 - id: review.sider.typo.vuejs
   pattern: VueJS
   message: "[typo] 'VueJS' → 'Vue.js'"
