@@ -1,0 +1,5 @@
+- id: review.sider.typo.github
+  pattern: Github
+  message: "[typo] 'Github' → 'GitHub'"
+  fail: Github
+  pass: GitHub
