@@ -9,3 +9,10 @@
   message: "[typo] 'Javascript' → 'JavaScript'"
   fail: Javascript
   pass: JavaScript
+- id: review.sider.typo.count_months_in_japanese
+  pattern: ヶ月
+  message: |
+    [typo] 'ヶ月' → 'か月'
+    See https://www.nhk.or.jp/bunken/summary/kotoba/term/006.html
+  fail: 1ヶ月
+  pass: 1か月
