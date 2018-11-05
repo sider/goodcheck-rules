@@ -1,0 +1,4 @@
+rules: []
+
+import:
+  - rules/typo.yml
