@@ -3,3 +3,4 @@
   message: "[typo] 'Github' → 'GitHub'"
   fail: Github
   pass: GitHub
+  justification: "Ignore 3rd-party identifier (e.g. X-Github-Media-Type)"
