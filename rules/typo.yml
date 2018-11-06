@@ -68,3 +68,11 @@
     See https://www.nhk.or.jp/bunken/summary/kotoba/term/006.html
   fail: 1ヶ月
   pass: 1か月
+
+- id: review.sider.typo.cider-sider
+  pattern:
+    literal: Cider
+    case_sensitive: false
+  message: "[typo] 'Cider' → 'Sider'"
+  fail: Cider
+  pass: Sider
