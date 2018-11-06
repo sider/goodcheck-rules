@@ -11,6 +11,12 @@
   fail: Javascript
   pass: JavaScript
 
+- id: review.sider.typo.goodcheck
+  pattern: "Good check"
+  message: "[typo] 'Good check' → 'Goodcheck'"
+  fail: "Good check"
+  pass: Goodcheck
+
 - id: review.sider.typo.rubocop
   pattern: Rubocop
   message: "[typo] 'Rubocop' → 'RuboCop'"
