@@ -11,6 +11,12 @@
   fail: Javascript
   pass: JavaScript
 
+- id: review.sider.typo.typescript
+  pattern: Typescript
+  message: "[typo] 'Typescript' → 'TypeScript'"
+  fail: Typescript
+  pass: TypeScript
+
 - id: review.sider.typo.goodcheck
   pattern: "Good check"
   message: "[typo] 'Good check' → 'Goodcheck'"
