@@ -14,3 +14,5 @@ import:
   - https://raw.githubusercontent.com/sider/goodcheck-rules/master/rules/typo.yml
   - # others...
 ```
+
+For details about this option, please see [Goodcheck documentation](https://github.com/sider/goodcheck#importing-rules).
