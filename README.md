@@ -15,6 +15,8 @@ import:
   - # others...
 ```
 
+For details about this option, please see [Goodcheck documentation](https://github.com/sider/goodcheck#importing-rules).
+
 ## License
 
 [MIT](LICENSE) © Sider
