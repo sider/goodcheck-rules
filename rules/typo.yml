@@ -67,6 +67,14 @@
   fail: Webstorm
   pass: WebStorm
 
+- id: review.sider.typo.dockerhub
+  pattern:
+    - DockerHub
+    - Dockerhub
+    - Docker hub
+  message: "[typo] Use 'Docker Hub'"
+  pass: Docker Hub
+
 - id: review.sider.typo.japanese.count_months
   pattern: ヶ月
   message: |
