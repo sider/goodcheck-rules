@@ -14,3 +14,7 @@ import:
   - https://raw.githubusercontent.com/sider/goodcheck-rules/master/rules/typo.yml
   - # others...
 ```
+
+## License
+
+[MIT](LICENSE) © Sider
