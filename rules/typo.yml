@@ -2,7 +2,7 @@
   pattern: Github
   message: Is this a typo for "GitHub"?
   pass: GitHub
-  justification: When it means a third-party identifier (e.g., X-Github-Media-Type)
+  justification: When it means a third-party identifier (e.g., X-Github-Media-Type).
 
 - id: review.sider.typo.javascript
   pattern: Javascript
@@ -71,7 +71,7 @@
   pattern: Cider
   message: Is this a typo for "Sider"?
   pass: Sider
-  justification: When it means a kind of drink
+  justification: When it means a kind of drink.
 
 - id: review.sider.typo.japanese.count_months
   pattern: ヶ月
