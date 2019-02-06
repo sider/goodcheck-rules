@@ -1,76 +1,62 @@
 - id: review.sider.typo.github
   pattern: Github
-  message: "[typo] 'Github' → 'GitHub'"
-  fail: Github
+  message: Is this a typo for "GitHub"?
   pass: GitHub
-  justification: "Ignore 3rd-party identifier (e.g. X-Github-Media-Type)"
+  justification: When it means 3rd-party identifier (e.g., X-Github-Media-Type)
 
 - id: review.sider.typo.javascript
   pattern: Javascript
-  message: "[typo] 'Javascript' → 'JavaScript'"
-  fail: Javascript
+  message: Is this a typo for "JavaScript"?
   pass: JavaScript
 
 - id: review.sider.typo.typescript
   pattern: Typescript
-  message: "[typo] 'Typescript' → 'TypeScript'"
-  fail: Typescript
+  message: Is this a typo for "JavaScript"?
   pass: TypeScript
 
 - id: review.sider.typo.querly
   pattern: Quelry
-  message: "[typo] 'Quelry' → 'Querly'"
-  fail: Quelry
+  message: Is this a typo for "Querly"?
   pass: Querly
 
 - id: review.sider.typo.goodcheck
-  pattern: "Good check"
-  message: "[typo] 'Good check' → 'Goodcheck'"
-  fail: "Good check"
+  pattern: Good check
+  message: Is this a typo for "Querly"?
   pass: Goodcheck
 
 - id: review.sider.typo.rubocop
   pattern: Rubocop
-  message: "[typo] 'Rubocop' → 'RuboCop'"
-  fail: Rubocop
+  message: Is this a typo for "RuboCop"?
   pass: RuboCop
 
 - id: review.sider.typo.checkstyle
   pattern: CheckStyle
-  message: "[typo] 'CheckStyle' → 'Checkstyle'"
-  fail: CheckStyle
+  message: Is this a typo for "Checkstyle"?
   pass: Checkstyle
 
 - id: review.sider.typo.rails_best_practices
-  pattern:
-    token: rails_best_practice
-  message: "[typo] 'rails_best_practice' → 'rails_best_practices'"
-  fail: rails_best_practice
+  pattern: rails_best_practice
+  message: Is this a typo for "rails_best_practices"?
   pass: rails_best_practices
 
-- id: review.sider.typo.Rails_Best_Practices
-  pattern:
-    token: Rails Best Practice
-  message: "[typo] 'Rails Best Practice' → 'Rails Best Practices'"
-  fail: Rails Best Practice
+- id: review.sider.typo.rails_best_practices.uppercase
+  pattern: Rails Best Practice
+  message: Is this a typo for "Rails Best Practices"?
   pass: Rails Best Practices
 
 - id: review.sider.typo.vuejs
   pattern: VueJS
-  message: "[typo] 'VueJS' → 'Vue.js'"
-  fail: VueJS
+  message: Is this a typo for "Vue.js"?
   pass: Vue.js
 
 - id: review.sider.typo.jetbrains
   pattern: Jetbrains
-  message: "[typo] 'Jetbrains' → 'JetBrains'"
-  fail: Jetbrains
+  message: Is this a typo for "JetBrains"?
   pass: JetBrains
 
 - id: review.sider.typo.webstorm
   pattern: Webstorm
-  message: "[typo] 'Webstorm' → 'WebStorm'"
-  fail: Webstorm
+  message: Is this a typo for "WebStorm"?
   pass: WebStorm
 
 - id: review.sider.typo.dockerhub
@@ -78,21 +64,20 @@
     - DockerHub
     - Dockerhub
     - Docker hub
-  message: "[typo] Use 'Docker Hub'"
+  message: Is this a typo for "Docker Hub"?
   pass: Docker Hub
+
+- id: review.sider.typo.sider
+  pattern: Cider
+  message: Is this a typo for "Sider"?
+  pass: Sider
+  justification: When it means a kind of drink
 
 - id: review.sider.typo.japanese.count_months
   pattern: ヶ月
   message: |
-    [typo] 'ヶ月' → 'か月'
+    Is this a typo for "か月"?
+
     See https://www.nhk.or.jp/bunken/summary/kotoba/term/006.html
   fail: 1ヶ月
   pass: 1か月
-
-- id: review.sider.typo.cider-sider
-  pattern:
-    literal: Cider
-    case_sensitive: false
-  message: "[typo] 'Cider' → 'Sider'"
-  fail: Cider
-  pass: Sider
