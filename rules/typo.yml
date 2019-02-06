@@ -17,6 +17,12 @@
   fail: Typescript
   pass: TypeScript
 
+- id: review.sider.typo.querly
+  pattern: Quelry
+  message: "[typo] 'Quelry' → 'Querly'"
+  fail: Quelry
+  pass: Querly
+
 - id: review.sider.typo.goodcheck
   pattern: "Good check"
   message: "[typo] 'Good check' → 'Goodcheck'"
