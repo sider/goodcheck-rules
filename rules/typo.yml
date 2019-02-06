@@ -55,6 +55,12 @@
   fail: VueJS
   pass: Vue.js
 
+- id: review.sider.typo.querly
+  pattern: Jetbrains
+  message: "[typo] 'Quelry' → 'Querly'"
+  fail: Quelry
+  pass: Querly
+
 - id: review.sider.typo.jetbrains
   pattern: Jetbrains
   message: "[typo] 'Jetbrains' → 'JetBrains'"
