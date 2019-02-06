@@ -11,7 +11,7 @@
 
 - id: review.sider.typo.typescript
   pattern: Typescript
-  message: Is this a typo for "JavaScript"?
+  message: Is this a typo for "TypeScript"?
   pass: TypeScript
 
 - id: review.sider.typo.querly
@@ -21,7 +21,7 @@
 
 - id: review.sider.typo.goodcheck
   pattern: Good check
-  message: Is this a typo for "Querly"?
+  message: Is this a typo for "Goodcheck"?
   pass: Goodcheck
 
 - id: review.sider.typo.rubocop
