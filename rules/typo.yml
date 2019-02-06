@@ -2,7 +2,7 @@
   pattern: Github
   message: Is this a typo for "GitHub"?
   pass: GitHub
-  justification: When it means a 3rd-party identifier (e.g., X-Github-Media-Type)
+  justification: When it means a third-party identifier (e.g., X-Github-Media-Type)
 
 - id: review.sider.typo.javascript
   pattern: Javascript
