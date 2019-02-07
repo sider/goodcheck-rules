@@ -67,6 +67,16 @@
   message: Is this a typo for "Docker Hub"?
   pass: Docker Hub
 
+- id: review.sider.typo.npm
+  pattern:
+    - NPM
+    - Npm
+  message: |
+    Is this a typo for "npm"?
+
+    See https://twitter.com/katie_fenn/status/1086317632071090176
+  pass: npm
+
 - id: review.sider.typo.sider
   pattern: Cider
   message: Is this a typo for "Sider"?
