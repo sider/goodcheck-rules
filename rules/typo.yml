@@ -67,6 +67,16 @@
   message: Is this a typo for "Docker Hub"?
   pass: Docker Hub
 
+- id: review.sider.typo.nodejs
+  pattern:
+    - NodeJS
+    - Node.JS
+  message: |
+    Is this a typo for "Node.js"?
+
+    See https://nodejs.org/static/documents/trademark-policy.pdf
+  pass: Node.js
+
 - id: review.sider.typo.npm
   pattern:
     - NPM
