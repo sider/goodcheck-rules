@@ -49,6 +49,14 @@
   message: Is this a typo for "Vue.js"?
   pass: Vue.js
 
+- id: review.sider.typo.react
+  pattern:
+    - ReactJS
+    - React.js
+  message: Is this a typo for "React"?
+  pass: React
+  justification: When it is compared with "React Native".
+
 - id: review.sider.typo.jetbrains
   pattern: Jetbrains
   message: Is this a typo for "JetBrains"?
