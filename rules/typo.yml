@@ -55,7 +55,7 @@
     - React.js
   message: Is this a typo for "React"?
   pass: React
-  justification: When it is compared to "React Native".
+  justification: When it is compared with "React Native".
 
 - id: review.sider.typo.jetbrains
   pattern: Jetbrains
