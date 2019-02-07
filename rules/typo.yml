@@ -71,10 +71,7 @@
   pattern:
     - NodeJS
     - Node.JS
-  message: |
-    Is this a typo for "Node.js"?
-
-    See https://nodejs.org/static/documents/trademark-policy.pdf
+  message: Is this a typo for "Node.js"?
   pass: Node.js
 
 - id: review.sider.typo.npm
