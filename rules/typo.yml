@@ -35,13 +35,17 @@
   pass: Checkstyle
 
 - id: review.sider.typo.rails_best_practices
-  pattern: rails_best_practice
+  pattern:
+    regexp: "rails_best_practice[^s]"
   message: Is this a typo for "rails_best_practices"?
+  fail: rails_best_practicex
   pass: rails_best_practices
 
 - id: review.sider.typo.rails_best_practices.uppercase
-  pattern: Rails Best Practice
+  pattern:
+    regexp: "Rails Best Practice[^s]"
   message: Is this a typo for "Rails Best Practices"?
+  fail: Rails Best Practicex
   pass: Rails Best Practices
 
 - id: review.sider.typo.vuejs
