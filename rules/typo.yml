@@ -29,6 +29,11 @@
   message: Is this a typo for "RuboCop"?
   pass: RuboCop
 
+- id: review.sider.typo.rspec
+  pattern: Rspec
+  message: Is this a typo for "RSpec"?
+  pass: RSpec
+
 - id: review.sider.typo.checkstyle
   pattern: CheckStyle
   message: Is this a typo for "Checkstyle"?
