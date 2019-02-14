@@ -81,6 +81,11 @@
   message: Is this a typo for "WebStorm"?
   pass: WebStorm
 
+- id: review.sider.typo.oauth
+  pattern: Oauth
+  message: Is this a typo for "OAuth"?
+  pass: OAuth
+
 - id: review.sider.typo.dockerhub
   pattern:
     - DockerHub
