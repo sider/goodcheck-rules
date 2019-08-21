@@ -18,7 +18,7 @@ import:
   - https://raw.githubusercontent.com/sider/goodcheck-rules/master/rules/typo.yml
 ```
 
-For more details, please see [Goodcheck documentation](https://github.com/sider/goodcheck#importing-rules).
+For more details, please see [the Goodcheck documentation](https://github.com/sider/goodcheck#importing-rules).
 
 ## License
 
