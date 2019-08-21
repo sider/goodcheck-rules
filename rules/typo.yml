@@ -111,6 +111,20 @@
     See https://twitter.com/katie_fenn/status/1086317632071090176
   pass: npm
 
+- id: review.sider.typo.coffeescript
+  pattern:
+    - CoffeScript
+    - Coffeescript
+  message: Is this a typo for "CoffeeScript"?
+  pass: CoffeeScript
+
+- id: review.sider.typo.coffeelint
+  pattern:
+    - CoffeLint
+    - Coffeelint
+  message: Is this a typo for "CoffeeLint"?
+  pass: CoffeeLint
+
 - id: review.sider.typo.sider
   pattern: Cider
   message: Is this a typo for "Sider"?
