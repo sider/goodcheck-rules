@@ -125,6 +125,16 @@
   message: Is this a typo for "CoffeeLint"?
   pass: CoffeeLint
 
+- id: review.sider.typo.stylelint
+  pattern:
+    - Stylelint
+    - StyleLint
+    - stylelit
+    - styellint
+    - stylelnt
+  message: Is this a typo for "stylelint"?
+  pass: stylelint
+
 - id: review.sider.typo.sider
   pattern: Cider
   message: Is this a typo for "Sider"?
