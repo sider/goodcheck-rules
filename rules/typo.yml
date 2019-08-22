@@ -135,6 +135,15 @@
   message: Is this a typo for "stylelint"?
   pass: stylelint
 
+- id: review.sider.typo.website
+  pattern:
+    literal: "web site"
+    case_sensitive: false
+  message: Is this a typo for "Website" or "website"?
+  pass:
+    - Website
+    - website
+
 - id: review.sider.typo.sider
   pattern: Cider
   message: Is this a typo for "Sider"?
