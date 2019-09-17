@@ -20,6 +20,11 @@ import:
 
 For more details, please see [the Goodcheck documentation](https://github.com/sider/goodcheck#importing-rules).
 
+## Rulesets
+
+- [Typo](rules/typo.yml)
+- [Ruby](rules/ruby.yml)
+
 ## License
 
 [MIT](LICENSE) © Sider
