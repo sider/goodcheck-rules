@@ -135,6 +135,11 @@
   message: Is this a typo for "stylelint"?
   pass: stylelint
 
+- id: review.sider.typo.swiftlint
+  pattern: Swiftlint
+  message: Is this a typo for "SwiftLint"?
+  pass: SwiftLint
+
 - id: review.sider.typo.website
   pattern:
     literal: "web site"
