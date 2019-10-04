@@ -150,6 +150,15 @@
   pass: Sider
   justification: When it means a kind of drink.
 
+- id: review.sider.typo.sleeek
+  pattern:
+    - literal: Sleek
+      case_sensitive: false
+  message: Is this a typo for "Sleeek"?
+  pass:
+    - Sleeek
+    - sleeek
+
 - id: review.sider.typo.japanese.count_months
   pattern: ヶ月
   message: |
