@@ -140,6 +140,11 @@
   message: Is this a typo for "SwiftLint"?
   pass: SwiftLint
 
+- id: review.sider.typo.shellcheck
+  pattern: Shellcheck
+  message: Is this a typo for "ShellCheck"?
+  pass: ShellCheck
+
 - id: review.sider.typo.website
   pattern:
     literal: "web site"
