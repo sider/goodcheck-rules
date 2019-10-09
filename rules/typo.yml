@@ -145,6 +145,11 @@
   message: Is this a typo for "ShellCheck"?
   pass: ShellCheck
 
+- id: review.sider.typo.shellscript
+  pattern: ShellScript
+  message: Is this a typo for "Shell script"?
+  pass: Shell script
+
 - id: review.sider.typo.website
   pattern:
     literal: "web site"
