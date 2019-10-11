@@ -1,0 +1,22 @@
+- id: review.sider.web.be-careful-using-local-storage
+  pattern: localStorage
+  message: |
+    Please be careful using local storage.
+
+    * Accessible from any JavaScript code. It may cause **big security incidents**.
+    * Store only string data. You may need to serialize or deserialize data.
+    * Synchronous. It may slow your application.
+    * Limit of the data size (~5MB across all major browsers).
+    * Cannot be used by web workers.
+
+    See also:
+    * https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Local_storage
+    * https://www.rdegges.com/2018/please-stop-using-local-storage
+    * https://techracho.bpsinc.jp/hachi8833/2019_10_09/80851
+  glob:
+    - "**/*.{mjs,js,jsx,ts,tsx,vue}"
+  justification:
+    - When you store not at all sensitive data.
+    - When you store purely string data.
+    - When you do not need a high-performance app.
+    - When you do not store data larger than 5MB.
