@@ -4,6 +4,11 @@
   pass: GitHub
   justification: When it means a third-party identifier (e.g., X-Github-Media-Type).
 
+- id: review.sider.typo.gitlab
+  pattern: Gitlab
+  message: Is this a typo for "GitLab"?
+  pass: GitLab
+
 - id: review.sider.typo.macos
   pattern: MacOS
   message: Is this a typo for "macOS"?
