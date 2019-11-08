@@ -1,4 +1,4 @@
 - id: review.sider.ruby.dot-ruby-version
-  glob: .ruby-version
+  glob: "**/.ruby-version"
   message: Consider if need to update also the Ruby version in `Dockerfile` or `.circleci/config.yml` etc.
   justification: When no other files writing the Ruby version
