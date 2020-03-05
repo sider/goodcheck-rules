@@ -160,6 +160,26 @@
   message: Is this a typo for "hadolint"?
   pass: hadolint
 
+- id: review.sider.typo.golangci-lint
+  pattern:
+    - GolangCi-Lint
+    - Golangci-lint
+    - GolangCI-lint
+  message: Is this a typo for "GolangCI-Lint"?
+  pass: GolangCI-Lint
+
+- id: review.sider.typo.detekt
+  pattern: Detekt
+  message: Is this a typo for "detekt"?
+  pass: detekt
+
+- id: review.sider.typo.fxcop
+  pattern:
+    - Fxcop
+    - FXCop
+  message: Is this a typo for "FxCop"?
+  pass: FxCop
+
 - id: review.sider.typo.website
   pattern:
     literal: "web site"
