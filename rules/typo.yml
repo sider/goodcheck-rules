@@ -180,6 +180,13 @@
   message: Is this a typo for "FxCop"?
   pass: FxCop
 
+- id: review.sider.typo.languagetool
+  pattern:
+    - Languagetool
+    - languageTool
+  message: Is this a typo for "LanguageTool"?
+  pass: LanguageTool
+
 - id: review.sider.typo.website
   pattern:
     literal: "web site"
