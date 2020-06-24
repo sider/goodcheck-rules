@@ -1,94 +1,94 @@
 - id: review.sider.typo.github
   pattern: Github
-  message: Is this a typo for "GitHub"?
+  message: Did you mean "GitHub"?
   pass: GitHub
   justification: When it means a third-party identifier (e.g., X-Github-Media-Type).
 
 - id: review.sider.typo.gitlab
   pattern: Gitlab
-  message: Is this a typo for "GitLab"?
+  message: Did you mean "GitLab"?
   pass: GitLab
 
 - id: review.sider.typo.macos
   pattern: MacOS
-  message: Is this a typo for "macOS"?
+  message: Did you mean "macOS"?
   pass: macOS
 
 - id: review.sider.typo.javascript
   pattern: Javascript
-  message: Is this a typo for "JavaScript"?
+  message: Did you mean "JavaScript"?
   pass: JavaScript
 
 - id: review.sider.typo.typescript
   pattern: Typescript
-  message: Is this a typo for "TypeScript"?
+  message: Did you mean "TypeScript"?
   pass: TypeScript
 
 - id: review.sider.typo.querly
   pattern: Quelry
-  message: Is this a typo for "Querly"?
+  message: Did you mean "Querly"?
   pass: Querly
 
 - id: review.sider.typo.goodcheck
   pattern: Good check
-  message: Is this a typo for "Goodcheck"?
+  message: Did you mean "Goodcheck"?
   pass: Goodcheck
 
 - id: review.sider.typo.rubocop
   pattern: Rubocop
-  message: Is this a typo for "RuboCop"?
+  message: Did you mean "RuboCop"?
   pass: RuboCop
 
 - id: review.sider.typo.rspec
   pattern: Rspec
-  message: Is this a typo for "RSpec"?
+  message: Did you mean "RSpec"?
   pass: RSpec
 
 - id: review.sider.typo.checkstyle
   pattern: CheckStyle
-  message: Is this a typo for "Checkstyle"?
+  message: Did you mean "Checkstyle"?
   pass: Checkstyle
 
 - id: review.sider.typo.rails_best_practices
   pattern:
     regexp: "rails_best_practice[^s]"
-  message: Is this a typo for "rails_best_practices"?
+  message: Did you mean "rails_best_practices"?
   fail: rails_best_practicex
   pass: rails_best_practices
 
 - id: review.sider.typo.rails_best_practices.uppercase
   pattern:
     regexp: "Rails Best Practice[^s]"
-  message: Is this a typo for "Rails Best Practices"?
+  message: Did you mean "Rails Best Practices"?
   fail: Rails Best Practicex
   pass: Rails Best Practices
 
 - id: review.sider.typo.vuejs
   pattern: VueJS
-  message: Is this a typo for "Vue.js"?
+  message: Did you mean "Vue.js"?
   pass: Vue.js
 
 - id: review.sider.typo.react
   pattern:
     - ReactJS
     - React.js
-  message: Is this a typo for "React"?
+  message: Did you mean "React"?
   pass: React
   justification: When it is compared with "React Native".
 
 - id: review.sider.typo.jetbrains
   pattern: Jetbrains
-  message: Is this a typo for "JetBrains"?
+  message: Did you mean "JetBrains"?
   pass: JetBrains
 
 - id: review.sider.typo.webstorm
   pattern: Webstorm
-  message: Is this a typo for "WebStorm"?
+  message: Did you mean "WebStorm"?
   pass: WebStorm
 
 - id: review.sider.typo.oauth
   pattern: Oauth
-  message: Is this a typo for "OAuth"?
+  message: Did you mean "OAuth"?
   pass: OAuth
 
 - id: review.sider.typo.dockerhub
@@ -96,14 +96,14 @@
     - DockerHub
     - Dockerhub
     - Docker hub
-  message: Is this a typo for "Docker Hub"?
+  message: Did you mean "Docker Hub"?
   pass: Docker Hub
 
 - id: review.sider.typo.nodejs
   pattern:
     - NodeJS
     - Node.JS
-  message: Is this a typo for "Node.js"?
+  message: Did you mean "Node.js"?
   pass: Node.js
 
 - id: review.sider.typo.npm
@@ -111,7 +111,7 @@
     - NPM
     - Npm
   message: |
-    Is this a typo for "npm"?
+    Did you mean "npm"?
 
     See https://twitter.com/katie_fenn/status/1086317632071090176
   pass: npm
@@ -120,14 +120,14 @@
   pattern:
     - CoffeScript
     - Coffeescript
-  message: Is this a typo for "CoffeeScript"?
+  message: Did you mean "CoffeeScript"?
   pass: CoffeeScript
 
 - id: review.sider.typo.coffeelint
   pattern:
     - CoffeLint
     - Coffeelint
-  message: Is this a typo for "CoffeeLint"?
+  message: Did you mean "CoffeeLint"?
   pass: CoffeeLint
 
 - id: review.sider.typo.stylelint
@@ -137,27 +137,27 @@
     - stylelit
     - styellint
     - stylelnt
-  message: Is this a typo for "stylelint"?
+  message: Did you mean "stylelint"?
   pass: stylelint
 
 - id: review.sider.typo.swiftlint
   pattern: Swiftlint
-  message: Is this a typo for "SwiftLint"?
+  message: Did you mean "SwiftLint"?
   pass: SwiftLint
 
 - id: review.sider.typo.shellcheck
   pattern: Shellcheck
-  message: Is this a typo for "ShellCheck"?
+  message: Did you mean "ShellCheck"?
   pass: ShellCheck
 
 - id: review.sider.typo.shellscript
   pattern: ShellScript
-  message: Is this a typo for "Shell script"?
+  message: Did you mean "Shell script"?
   pass: Shell script
 
 - id: review.sider.typo.hadolint
   pattern: Hadolint
-  message: Is this a typo for "hadolint"?
+  message: Did you mean "hadolint"?
   pass: hadolint
 
 - id: review.sider.typo.golangci-lint
@@ -165,40 +165,40 @@
     - GolangCi-Lint
     - Golangci-lint
     - GolangCI-lint
-  message: Is this a typo for "GolangCI-Lint"?
+  message: Did you mean "GolangCI-Lint"?
   pass: GolangCI-Lint
 
 - id: review.sider.typo.detekt
   pattern: Detekt
-  message: Is this a typo for "detekt"?
+  message: Did you mean "detekt"?
   pass: detekt
 
 - id: review.sider.typo.fxcop
   pattern:
     - Fxcop
     - FXCop
-  message: Is this a typo for "FxCop"?
+  message: Did you mean "FxCop"?
   pass: FxCop
 
 - id: review.sider.typo.languagetool
   pattern:
     - Languagetool
     - languageTool
-  message: Is this a typo for "LanguageTool"?
+  message: Did you mean "LanguageTool"?
   pass: LanguageTool
 
 - id: review.sider.typo.website
   pattern:
     literal: "web site"
     case_sensitive: false
-  message: Is this a typo for "Website" or "website"?
+  message: Did you mean "Website" or "website"?
   pass:
     - Website
     - website
 
 - id: review.sider.typo.sider
   pattern: Cider
-  message: Is this a typo for "Sider"?
+  message: Did you mean "Sider"?
   pass: Sider
   justification: When it means a kind of drink.
 
@@ -206,7 +206,7 @@
   pattern:
     - literal: Sleek
       case_sensitive: false
-  message: Is this a typo for "Sleeek"?
+  message: Did you mean "Sleeek"?
   pass:
     - Sleeek
     - sleeek
@@ -214,13 +214,13 @@
 - id: review.sider.typo.minio
   pattern:
     - Minio
-  message: Is this a typo for "MinIO"?
+  message: Did you mean "MinIO"?
   pass: MinIO
 
 - id: review.sider.typo.japanese.count_months
   pattern: ヶ月
   message: |
-    Is this a typo for "か月"?
+    Did you mean "か月"?
 
     See https://www.nhk.or.jp/bunken/summary/kotoba/term/006.html
   fail: 1ヶ月
