@@ -214,6 +214,7 @@
 - id: review.sider.typo.minio
   pattern:
     - Minio
+    - MiniO
   message: Did you mean "MinIO"?
   pass: MinIO
 
