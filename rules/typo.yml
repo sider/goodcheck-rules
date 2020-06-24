@@ -211,6 +211,15 @@
     - Sleeek
     - sleeek
 
+- id: review.sider.typo.minio
+  pattern: Minio
+  message: |
+    Is this a typo for "MiniO "?
+
+    See https://min.io/product/overview
+  fail: Minio
+  pass: MiniO
+
 - id: review.sider.typo.japanese.count_months
   pattern: ヶ月
   message: |
