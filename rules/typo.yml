@@ -218,6 +218,14 @@
   message: Did you mean "MinIO"?
   pass: MinIO
 
+- id: review.sider.typo.clang-tidy
+  pattern:
+    - Clang-tidy
+    - CLang-Tidy
+    - CLang-tidy
+  message: Did you mean "Clang-Tidy"?
+  pass: Clang-Tidy
+
 - id: review.sider.typo.japanese.count_months
   pattern: ヶ月
   message: |
