@@ -1,0 +1,14 @@
+- id: sider.goodcheck-rules.github.actions.default-branch
+  pattern:
+    - master
+  glob:
+    - "**/.github/workflows/**/*.yml"
+  message: |
+    Use `$default-branch` instead of a hard-coded default branch name such as `master`
+
+    In the future, many repositories may no longer use `master` as the default branch name.
+    See also the following announcement:
+    https://github.blog/changelog/2020-07-22-github-actions-better-support-for-alternative-default-branch-names/
+  justification:
+    - When this is not a branch name.
+    - When this usage of the branch name is reasonable.
