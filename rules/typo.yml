@@ -49,14 +49,14 @@
   message: Did you mean "Checkstyle"?
   pass: Checkstyle
 
-- id: sider.goodcheck-rules.typo.Rails_best_practices
+- id: sider.goodcheck-rules.typo.rails-best-practices
   pattern:
     regexp: "rails_best_practice[^s]"
   message: Did you mean "rails_best_practices"?
   fail: rails_best_practicex
   pass: rails_best_practices
 
-- id: sider.goodcheck-rules.typo.rails_best_practices.uppercase
+- id: sider.goodcheck-rules.typo.rails-best-practices.uppercase
   pattern:
     regexp: "Rails Best Practice[^s]"
   message: Did you mean "Rails Best Practices"?
@@ -226,7 +226,7 @@
   message: Did you mean "Clang-Tidy"?
   pass: Clang-Tidy
 
-- id: sider.goodcheck-rules.typo.japanese.count_months
+- id: sider.goodcheck-rules.typo.japanese.count-months
   pattern: ヶ月
   message: |
     Did you mean "か月"?
