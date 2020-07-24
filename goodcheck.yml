@@ -1,7 +1,6 @@
 rules: []
 
 import:
-  - rules/github.yml
-  - rules/ruby.yml
   - rules/typo.yml
+  - rules/ruby.yml
   - rules/web.yml
