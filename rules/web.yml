@@ -1,4 +1,4 @@
-- id: review.sider.web.be-careful-using-local-storage
+- id: sider.goodcheck-rules.web.be-careful-using-local-storage
   pattern: localStorage
   message: |
     Please be careful using local storage.

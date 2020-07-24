@@ -1,74 +1,74 @@
-- id: review.sider.typo.github
+- id: sider.goodcheck-rules.typo.github
   pattern: Github
   message: Did you mean "GitHub"?
   pass: GitHub
   justification: When it means a third-party identifier (e.g., X-Github-Media-Type).
 
-- id: review.sider.typo.gitlab
+- id: sider.goodcheck-rules.typo.gitlab
   pattern: Gitlab
   message: Did you mean "GitLab"?
   pass: GitLab
 
-- id: review.sider.typo.macos
+- id: sider.goodcheck-rules.typo.macos
   pattern: MacOS
   message: Did you mean "macOS"?
   pass: macOS
 
-- id: review.sider.typo.javascript
+- id: sider.goodcheck-rules.typo.javascript
   pattern: Javascript
   message: Did you mean "JavaScript"?
   pass: JavaScript
 
-- id: review.sider.typo.typescript
+- id: sider.goodcheck-rules.typo.typescript
   pattern: Typescript
   message: Did you mean "TypeScript"?
   pass: TypeScript
 
-- id: review.sider.typo.querly
+- id: sider.goodcheck-rules.typo.querly
   pattern: Quelry
   message: Did you mean "Querly"?
   pass: Querly
 
-- id: review.sider.typo.goodcheck
+- id: sider.goodcheck-rules.typo.goodcheck
   pattern: Good check
   message: Did you mean "Goodcheck"?
   pass: Goodcheck
 
-- id: review.sider.typo.rubocop
+- id: sider.goodcheck-rules.typo.rubocop
   pattern: Rubocop
   message: Did you mean "RuboCop"?
   pass: RuboCop
 
-- id: review.sider.typo.rspec
+- id: sider.goodcheck-rules.typo.rspec
   pattern: Rspec
   message: Did you mean "RSpec"?
   pass: RSpec
 
-- id: review.sider.typo.checkstyle
+- id: sider.goodcheck-rules.typo.checkstyle
   pattern: CheckStyle
   message: Did you mean "Checkstyle"?
   pass: Checkstyle
 
-- id: review.sider.typo.rails_best_practices
+- id: sider.goodcheck-rules.typo.Rails_best_practices
   pattern:
     regexp: "rails_best_practice[^s]"
   message: Did you mean "rails_best_practices"?
   fail: rails_best_practicex
   pass: rails_best_practices
 
-- id: review.sider.typo.rails_best_practices.uppercase
+- id: sider.goodcheck-rules.typo.rails_best_practices.uppercase
   pattern:
     regexp: "Rails Best Practice[^s]"
   message: Did you mean "Rails Best Practices"?
   fail: Rails Best Practicex
   pass: Rails Best Practices
 
-- id: review.sider.typo.vuejs
+- id: sider.goodcheck-rules.typo.vuejs
   pattern: VueJS
   message: Did you mean "Vue.js"?
   pass: Vue.js
 
-- id: review.sider.typo.react
+- id: sider.goodcheck-rules.typo.react
   pattern:
     - ReactJS
     - React.js
@@ -76,22 +76,22 @@
   pass: React
   justification: When it is compared with "React Native".
 
-- id: review.sider.typo.jetbrains
+- id: sider.goodcheck-rules.typo.jetbrains
   pattern: Jetbrains
   message: Did you mean "JetBrains"?
   pass: JetBrains
 
-- id: review.sider.typo.webstorm
+- id: sider.goodcheck-rules.typo.webstorm
   pattern: Webstorm
   message: Did you mean "WebStorm"?
   pass: WebStorm
 
-- id: review.sider.typo.oauth
+- id: sider.goodcheck-rules.typo.oauth
   pattern: Oauth
   message: Did you mean "OAuth"?
   pass: OAuth
 
-- id: review.sider.typo.dockerhub
+- id: sider.goodcheck-rules.typo.dockerhub
   pattern:
     - DockerHub
     - Dockerhub
@@ -99,14 +99,14 @@
   message: Did you mean "Docker Hub"?
   pass: Docker Hub
 
-- id: review.sider.typo.nodejs
+- id: sider.goodcheck-rules.typo.nodejs
   pattern:
     - NodeJS
     - Node.JS
   message: Did you mean "Node.js"?
   pass: Node.js
 
-- id: review.sider.typo.npm
+- id: sider.goodcheck-rules.typo.npm
   pattern:
     - NPM
     - Npm
@@ -116,21 +116,21 @@
     See https://twitter.com/katie_fenn/status/1086317632071090176
   pass: npm
 
-- id: review.sider.typo.coffeescript
+- id: sider.goodcheck-rules.typo.coffeescript
   pattern:
     - CoffeScript
     - Coffeescript
   message: Did you mean "CoffeeScript"?
   pass: CoffeeScript
 
-- id: review.sider.typo.coffeelint
+- id: sider.goodcheck-rules.typo.coffeelint
   pattern:
     - CoffeLint
     - Coffeelint
   message: Did you mean "CoffeeLint"?
   pass: CoffeeLint
 
-- id: review.sider.typo.stylelint
+- id: sider.goodcheck-rules.typo.stylelint
   pattern:
     - Stylelint
     - StyleLint
@@ -140,27 +140,27 @@
   message: Did you mean "stylelint"?
   pass: stylelint
 
-- id: review.sider.typo.swiftlint
+- id: sider.goodcheck-rules.typo.swiftlint
   pattern: Swiftlint
   message: Did you mean "SwiftLint"?
   pass: SwiftLint
 
-- id: review.sider.typo.shellcheck
+- id: sider.goodcheck-rules.typo.shellcheck
   pattern: Shellcheck
   message: Did you mean "ShellCheck"?
   pass: ShellCheck
 
-- id: review.sider.typo.shellscript
+- id: sider.goodcheck-rules.typo.shellscript
   pattern: ShellScript
   message: Did you mean "Shell script"?
   pass: Shell script
 
-- id: review.sider.typo.hadolint
+- id: sider.goodcheck-rules.typo.hadolint
   pattern: Hadolint
   message: Did you mean "hadolint"?
   pass: hadolint
 
-- id: review.sider.typo.golangci-lint
+- id: sider.goodcheck-rules.typo.golangci-lint
   pattern:
     - GolangCi-Lint
     - Golangci-lint
@@ -168,26 +168,26 @@
   message: Did you mean "GolangCI-Lint"?
   pass: GolangCI-Lint
 
-- id: review.sider.typo.detekt
+- id: sider.goodcheck-rules.typo.detekt
   pattern: Detekt
   message: Did you mean "detekt"?
   pass: detekt
 
-- id: review.sider.typo.fxcop
+- id: sider.goodcheck-rules.typo.fxcop
   pattern:
     - Fxcop
     - FXCop
   message: Did you mean "FxCop"?
   pass: FxCop
 
-- id: review.sider.typo.languagetool
+- id: sider.goodcheck-rules.typo.languagetool
   pattern:
     - Languagetool
     - languageTool
   message: Did you mean "LanguageTool"?
   pass: LanguageTool
 
-- id: review.sider.typo.website
+- id: sider.goodcheck-rules.typo.website
   pattern:
     literal: "web site"
     case_sensitive: false
@@ -196,13 +196,13 @@
     - Website
     - website
 
-- id: review.sider.typo.sider
+- id: sider.goodcheck-rules.typo.sider
   pattern: Cider
   message: Did you mean "Sider"?
   pass: Sider
   justification: When it means a kind of drink.
 
-- id: review.sider.typo.sleeek
+- id: sider.goodcheck-rules.typo.sleeek
   pattern:
     - literal: Sleek
       case_sensitive: false
@@ -211,14 +211,14 @@
     - Sleeek
     - sleeek
 
-- id: review.sider.typo.minio
+- id: sider.goodcheck-rules.typo.minio
   pattern:
     - Minio
     - MiniO
   message: Did you mean "MinIO"?
   pass: MinIO
 
-- id: review.sider.typo.clang-tidy
+- id: sider.goodcheck-rules.typo.clang-tidy
   pattern:
     - Clang-tidy
     - CLang-Tidy
@@ -226,7 +226,7 @@
   message: Did you mean "Clang-Tidy"?
   pass: Clang-Tidy
 
-- id: review.sider.typo.japanese.count_months
+- id: sider.goodcheck-rules.typo.japanese.count_months
   pattern: ヶ月
   message: |
     Did you mean "か月"?
