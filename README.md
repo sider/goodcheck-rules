@@ -25,6 +25,7 @@ For more details, please see [the Goodcheck documentation](https://github.com/si
 - [Typo](rules/typo.yml)
 - [Ruby](rules/ruby.yml)
 - [Web](rules/web.yml)
+- [GitHub](rules/github.yml)
 
 ## License
 
