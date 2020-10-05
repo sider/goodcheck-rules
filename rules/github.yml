@@ -3,7 +3,7 @@
     - "set-env"
     - "add-path"
   glob:
-    - ".github/workflows/*.yml"
+    - ".github/workflows/*.{yml,yaml}"
   message: |
     Disallow `set-env` and `add-path` commands in workflows of GitHub Actions.
 
