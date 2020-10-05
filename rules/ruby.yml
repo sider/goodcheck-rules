@@ -1,4 +1,7 @@
 - id: sider.goodcheck-rules.ruby.dot-ruby-version
   glob: "**/.ruby-version"
-  message: Consider if need to update also the Ruby version in `Dockerfile` or `.circleci/config.yml` etc.
-  justification: When no other files writing the Ruby version
+  message: |
+    Check if using the same version also in other files, e.g. `Dockerfile`, `.github/workflows/test.yml`, or `.circleci/config.yml` etc.
+  justification:
+    - When there are no other files using the Ruby version.
+    - When there are no problems even if using different Ruby versions.
