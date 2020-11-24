@@ -24,6 +24,10 @@
 
     If you want to get the last value of `(0...4)`, maybe `#end` is not suitable
     because it excludes the last value.
+
+    See the reference for more details.
+
+    https://ruby-doc.org/core/Range.html#method-i-end
   justification:
     - When the receiver is not an instance of `Range`
     - When you really want to get the end of the range
