@@ -5,3 +5,25 @@
   justification:
     - When there are no other files using the Ruby version.
     - When there are no problems even if using different Ruby versions.
+
+- id: sider.goodcheck-rules.ruby.range-end
+  glob: "**/*.rb"
+  pattern:
+    token: ".end"
+  message: |
+    `Range#end` returns the end of the range, not the last value of the range.
+
+    For example, `(0...4).end` will return `4` as well as `(0..4).end`.
+
+    ```ruby
+    (0..4).end          #=> 4
+    (0...4).end         #=> 4
+    (0..4).to_a.last    #=> 4
+    (0...4).to_a.last   #=> 3
+    ```
+
+    If you want to get the last value of `(0...4)`, maybe `#end` is not suitable
+    because it excludes the last value.
+  justification:
+    - When the receiver is not an instance of `Range`
+    - When you really want to get the end of the range
