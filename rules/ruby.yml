@@ -19,6 +19,7 @@
     * https://github.com/ruby/ostruct/blob/v0.3.1/lib/ostruct.rb#L107
   justification:
     - When you have to use `OpenStruct` due to historical circumstances or dependency issues.
+    - When you confirm that such problems never occur.
   pass:
     - SomeOpenStruct
     - OpenStructExt
