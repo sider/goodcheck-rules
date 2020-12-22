@@ -5,3 +5,24 @@
   justification:
     - When there are no other files using the Ruby version.
     - When there are no problems even if using different Ruby versions.
+
+- id: sider.goodcheck-rules.ruby.disallow-ostruct
+  pattern:
+    token: OpenStruct
+  glob: "**/*.{rb,rake,gemspec}"
+  message: |
+    `OpenStruct` has several problems about security or performance etc. Consider alternatives like `Struct` or `Hash`.
+
+    See also:
+    * https://bugs.ruby-lang.org/issues/15409
+    * https://github.com/ruby/ostruct/pull/15
+    * https://github.com/ruby/ostruct/blob/v0.3.1/lib/ostruct.rb#L107
+  justification:
+    - When you have to use `OpenStruct` due to historical circumstances or dependency issues.
+    - When you confirm that such problems never occur.
+  pass:
+    - SomeOpenStruct
+    - OpenStructExt
+  fail:
+    - OpenStruct
+    - OpenStruct.new
