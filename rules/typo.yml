@@ -108,13 +108,19 @@
 
 - id: sider.goodcheck-rules.typo.npm
   pattern:
-    - NPM
-    - Npm
+    - token: NPM
+    - token: Npm
   message: |
     Did you mean "npm"?
 
     See https://twitter.com/katie_fenn/status/1086317632071090176
-  pass: npm
+  pass:
+    - npm
+    - abcNPMdef
+    - abcNpmdef
+  fail:
+    - Npm
+    - NPM
 
 - id: sider.goodcheck-rules.typo.coffeescript
   pattern:
