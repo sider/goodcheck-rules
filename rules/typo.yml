@@ -232,6 +232,27 @@
   message: Did you mean "Clang-Tidy"?
   pass: Clang-Tidy
 
+- id: sider.goodcheck-rules.typo.haml-lint
+  pattern:
+    - Haml-Lint
+    - HAML-lint
+    - HAML_lint
+    - Haml_lint
+    - Haml_Lint
+  message: Did you mean "HAML-Lint"?
+  pass: HAML-Lint
+
+- id: sider.goodcheck-rules.typo.slim-lint
+  pattern:
+    - SLIM-Lint
+    - Slim-lint
+    - SLIM_lint
+    - SLIM_Lint
+    - Slim_Lint
+    - Slim_lint
+  message: Did you mean "Slim-Lint"?
+  pass: Slim-Lint
+
 - id: sider.goodcheck-rules.typo.japanese.count-months
   pattern: ヶ月
   message: |
