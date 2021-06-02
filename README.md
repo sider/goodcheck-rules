@@ -26,7 +26,3 @@ For more details, please see [the Goodcheck documentation](https://github.com/si
 - [Ruby](rules/ruby.yml)
 - [Web](rules/web.yml)
 - [GitHub](rules/github.yml)
-
-## License
-
-[MIT](LICENSE) © Sider
