@@ -4,7 +4,7 @@
 
 ## Usage
 
-Add this repository's URL to `import:` section in your project's `goodcheck.yml`.
+Add this repository’s URL to `import:` section in your project’s `goodcheck.yml`.
 
 For example:
 
