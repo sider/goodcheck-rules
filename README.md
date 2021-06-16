@@ -15,6 +15,9 @@ rules:
     message: Some message.
 
 import:
+  # Import all rules with a tag.
+  - https://github.com/sider/goodcheck-rules/archive/refs/tags/v0.0.1.tar.gz
+  # Import individual ruleset.
   - https://raw.githubusercontent.com/sider/goodcheck-rules/HEAD/rules/typo.yml
 ```
 
