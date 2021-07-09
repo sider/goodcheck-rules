@@ -1,0 +1,8 @@
+- id: sider.goodcheck-rules.comment.todo
+  pattern:
+    token: TODO
+  message: |
+    Do you forget to work on this TODO?
+  justification:
+    - No, it’s not necessary to work on this TODO now.
+    - No, it’s not a TODO comment.
