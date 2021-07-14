@@ -1,7 +1,7 @@
 - id: sider.goodcheck-rules.ruby.dot-ruby-version
   glob: "**/.ruby-version"
   message: |
-    Check if using the same version also in other files, e.g. `Dockerfile`, `.github/workflows/test.yml`, or `.circleci/config.yml` etc.
+    Check if using the same version also in other files, e.g. `Dockerfile`, `.github/workflows/*.yml`, or `.circleci/*.yml` etc.
   justification:
     - When there are no other files using the Ruby version.
     - When there are no problems even if using different Ruby versions.
